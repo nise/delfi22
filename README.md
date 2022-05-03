@@ -4,15 +4,8 @@
 
 ## Pre-requisits and install instructions
 1. Make sure Python v3.9 is installed on your system.
-2. Install depending modules: 
-  conda install -c conda-forge cvxopt 
-  conda install -c conda-forge pm4py 
-  conda install -c conda-forge seaborn
-  conda install -c conda-forge sklearn
-  conda install -c conda-forge pandas
-  conda install -c conda-forge numpy
-  conda install -c conda-forge yellowbrick
-  conda install -c conda-forge matplotlib
+2. conda env create -f environment.yml
+3. conda activate analysis
 4. To replicate the analysis open the file Ananlysis.ipynb and execute the code blocks one by one or all together.
 
 ## Files and folders

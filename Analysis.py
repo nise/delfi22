@@ -557,8 +557,15 @@ X["mid_reading"] = X.groupby("caseid")["action_name"].transform(lambda x: x.valu
 plt.figure(figsize=(5,5))
 kmeans = KMeans(random_state=1)
 visualizer = KElbowVisualizer(kmeans, k=(2,30), metric="distortion")
-visualizer.fit(X.groupby("caseid").first()[["begin_reading", "end_reading", "seqlen_low", "seqlen_mid", "seqlen_high", "mid_reading"]])
-visualizer.show()
+
+from sklearn.datasets import make_blobs
+Xx, y = make_blobs(n_samples=1, n_features=12, centers=8, shuffle=True, random_state=42)
+print(Xx)
+
+aa = X.groupby("caseid").first()[["begin_reading", "end_reading", "seqlen_low", "seqlen_mid", "seqlen_high", "mid_reading"]]
+print(aa)
+visualizer.fit([aa])
+#visualizer.show()
 n_clusters = visualizer.elbow_value_
 kmeans = KMeans(n_clusters=n_clusters, random_state=1)
 kmeans.fit(X.groupby("caseid").first()[["begin_reading", "end_reading", "seqlen_low", "seqlen_mid", "seqlen_high", "mid_reading"]])
