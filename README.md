@@ -1,5 +1,5 @@
-# delfi2022-reading-assessment
-
+# Interactions between reading and assessment activities in Moodle
+Reading and assessment are elementary activities for knowledge acquisition in online learning. Assessments represented as quizzes can help learners to identify gaps in their knowledge and understanding, which they can then overcome by reading the corresponding text-based course material. Reversely, quizzes can be used to evaluate reading comprehension. In this paper, we ex- amine the interactions between reading and quiz activities using scroll and log data from an online undergraduate course (N=142). By analyzing processes and sequential patterns in user sessions, we identified six session clusters for characteristic reading and quiz patterns potentially relevant for adaptive learning support. Using these session clusters, we further clustered students by their reading and quiz behavior over six time periods within the semester. The results hypothesize a personalization for seven groups of learners characterized by their temporal activity and predominant quiz and reading behavior.
 
 
 ## Pre-requisits and install instructions
@@ -7,6 +7,11 @@
 2. conda env create -f environment.yml
 3. conda activate analysis
 4. To replicate the analysis open the file Ananlysis.ipynb and execute the code blocks one by one or all together.
+
+`jupyter nbconvert --to python Analysis.ipynb`
+
+`jupyter notebook Analysis.py`
+
 
 ## Files and folders
 - (File) Analysis.ipynb: Pythone Notebook containing all applied code blocks applied for data analyis.
@@ -22,8 +27,14 @@
   * m_quiz_attempts.csv: ...
   * scroll.csv: ...
 
+  # Publications and citation
+
+**Publications**
+* Seidel, N., & Menze, D. (2022). Interactions of reading and assessment activities. In S. Sosnovsky, P. Brusilovsky, & A. Lan (Eds.), 4th Workshop on Intelligent Textbooks, 2022 (pp. 64–76). CEUR-WS. http://ceur-ws.org/Vol-3192/
+* Menze, D., Seidel, Ni., & Kasakowskij, R. (2022). Interaction of reading and assessment behavior. In P. A. Henning, M. Striewe, & M. Wölfel (Eds.), DELFI 2022 – Die 21. Fachtagung Bildungstechnologien der Gesellschaft für Informatik e.V. (pp. 27–38). Gesellschaft für Informatik. https://doi.org/10.18420/delfi2022-011
+
+**Citation of the Dataset**
 
 
-jupyter nbconvert --to python Analysis.ipynb
 
-jupyter notebook Analysis.py
+
