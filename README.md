@@ -1,4 +1,4 @@
-# Interactions between reading and assessment activities in Moodle
+# Interactions of reading and assessment activities in Moodle
 Reading and assessment are elementary activities for knowledge acquisition in online learning. Assessments represented as quizzes can help learners to identify gaps in their knowledge and understanding, which they can then overcome by reading the corresponding text-based course material. Reversely, quizzes can be used to evaluate reading comprehension. In this paper, we ex- amine the interactions between reading and quiz activities using scroll and log data from an online undergraduate course (N=142). By analyzing processes and sequential patterns in user sessions, we identified six session clusters for characteristic reading and quiz patterns potentially relevant for adaptive learning support. Using these session clusters, we further clustered students by their reading and quiz behavior over six time periods within the semester. The results hypothesize a personalization for seven groups of learners characterized by their temporal activity and predominant quiz and reading behavior.
 
 
@@ -14,9 +14,10 @@ Reading and assessment are elementary activities for knowledge acquisition in on
 
 
 ## Files and folders
-- (File) Analysis.ipynb: Pythone Notebook containing all applied code blocks applied for data analyis.
-- (File) requirements.txt: List of python modules to be installed to fulfil the requirements of the Analysis.ipynb script.
-- (Folder) data: Folder containes anonymized CSV files for each Moodle database tables that was necessary for the data analysis. All data files are text files encoded in UTF-8. The columns are separated with a semicolon (";"), rows are indicated by line breaks ("\n").
+
+* (File) Analysis.ipynb: Python Notebook containing all applied code blocks applied for data analysis.
+* (File) requirements.txt: List of python modules to be installed to fulfill the requirements of the Analysis.ipynb script.
+* (Folder) data: The folder contains anonymized CSV files for each Moodle database table that was necessary for the data analysis. All data files are text files encoded in UTF-8. The columns are separated with a semicolon (";"), and rows are indicated by line breaks ("\n").
   * m_assign.csv: ...
   * m_course_modules.csv: ...
   * m_quiz.csv: ...
@@ -27,6 +28,7 @@ Reading and assessment are elementary activities for knowledge acquisition in on
   * m_quiz_attempts.csv: ...
   * scroll.csv: ...
 
+
   # Publications and citation
 
 **Publications**
@@ -35,6 +37,8 @@ Reading and assessment are elementary activities for knowledge acquisition in on
 
 **Citation of the Dataset**
 
+* Seidel. Niels, & Menze, Dennis. (2022). Data and Analysis of Reading and Assessment Activities in Moodle (1.0) [Data set]. Zenodo. https://doi.org/10.5281/zenodo.7300070
 
+The source code and data are maintained at GitHub: https://github.com/nise/delfi22
 
-
+**Acknowledgments** This research was supported by CATALPA - Center of Advanced Technology for Assisted Learning and Predictive Analytics of the FernUniversität in Hagen, Germany.
