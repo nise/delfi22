@@ -29,7 +29,7 @@ Reading and assessment are elementary activities for knowledge acquisition in on
   * scroll.csv: ...
 
 
-  # Publications and citation
+  # Publications, citation, license
 
 **Publications**
 * Seidel, N., & Menze, D. (2022). Interactions of reading and assessment activities. In S. Sosnovsky, P. Brusilovsky, & A. Lan (Eds.), 4th Workshop on Intelligent Textbooks, 2022 (pp. 64–76). CEUR-WS. http://ceur-ws.org/Vol-3192/
@@ -37,8 +37,13 @@ Reading and assessment are elementary activities for knowledge acquisition in on
 
 **Citation of the Dataset**
 
-* Seidel. Niels, & Menze, Dennis. (2022). Data and Analysis of Reading and Assessment Activities in Moodle (1.0) [Data set]. Zenodo. https://doi.org/10.5281/zenodo.7300070
+* Seidel, Niels, & Menze, Dennis. (2022). Data and Analysis of Reading and Assessment Activities in Moodle (1.0) [Data set]. Zenodo. https://doi.org/10.5281/zenodo.7300070
 
 The source code and data are maintained at GitHub: https://github.com/nise/delfi22
+
+**License**
+
+Distributed under the MIT License. See [LICENSE.txt](https://gitlab.pi6.fernuni-hagen.de/la-diva/adaptive-assessment/generationofmultipletruefalsequestions/-/blob/master/LICENSE.txt) for more information.
+
 
 **Acknowledgments** This research was supported by CATALPA - Center of Advanced Technology for Assisted Learning and Predictive Analytics of the FernUniversität in Hagen, Germany.
